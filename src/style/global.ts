@@ -9,16 +9,15 @@ export default createGlobalStyle`
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
   }
-  /* *::-webkit-scrollbar {
-    width: 4px;
+  *::-webkit-scrollbar {
+    width: 10px;
   }
   *::-webkit-scrollbar-track {
-    background: rgba(0,0,0, 0.2);
+    background: #bcbcbc;
   }
   *::-webkit-scrollbar-thumb {
-    background-color: blue;
-    border-radius: 50px;
-  } */
+    background-color:  rgba(0,0,0, 0.45);
+  }
   html {
     font-size: 55%;
   }
