@@ -25,8 +25,18 @@
     ],
     "rules": {
       "prettier/prettier": "error",
+      "react/jsx-one-expression-per-line": "off",
       "react-hooks/rules-of-hooks": "error",
       "react-hooks/exhaustive-deps": "warn",
+      "react/prop-types": "off",
+      "react/jsx-props-no-spreading": "off",
+      "@typescript-eslint/no-explicit-any": "off",
+      "@typescript-eslint/explicit-module-boundary-types":"off",
+      "react/jsx-wrap-multilines": [
+        "error",
+        { "declaration": false, "assignment": false }
+      ],
+
       "react/jsx-filename-extension": [
         1,
         {
